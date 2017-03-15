@@ -1,98 +1,12 @@
 # Twig
 
+Twig is a modern template engine for PHP.
+
+**We use it on most projects** (specially with SEED).
+
 ## Doc
 - [Go to Twig Doc](http://twig.sensiolabs.org/doc/2.x/)
 
-### Tags
-- [autoescape][1]
-- [block][2]
-- [do][3]
-- [embed][4]
-- [extends][5]
-- [filter][6]
-- [flush][7]
-- [for][8]
-- [from][9]
-- [if][10] 
-- [import][11]
-- [include][12]
-- [macro][13]
-- [sandbox][14]
-- [set][15]
-- [spaceless][16]
-- [use][17]
-- [verbatim][18]
-- [with][19]
-
-### Filters
-- [abs][1-1]
-- [batch][1-2]
-- [capitalize][1-3] 
-- [convert_encoding][1-4]
-- [date][1-5]
-- [date_modify][1-6]
-- [default][1-7]
-- [escape][1-8] 
-- [first][1-9] 
-- [format][1-10] 
-- [join][1-11] 
-- [json_encode][1-12] 
-- [keys][1-13] 
-- [last][1-14] 
-- [length][1-15] 
-- [lower][1-16] 
-- [merge][1-17] 
-- [nl2br][1-18] 
-- [number_format][1-19] 
-- [raw][1-20] 
-- [replace][1-21] 
-- [reverse][1-22] 
-- [round][1-23] 
-- [slice][1-24] 
-- [sort][1-25] 
-- [split][1-26] 
-- [striptags][1-27] 
-- [title][1-28] 
-- [trim][1-29] 
-- [upper][1-30] 
-- [url_encode][1-31] 
-
-### Functions
-- [attribute][2-1] 
-- [block][2-2]
-- [constant][2-3]
-- [cycle][2-4]
-- [date][2-5]
-- [dump][2-6]
-- [include][2-7]
-- [max][2-8]
-- [min][2-9]
-- [parent][2-10]
-- [random][2-11]
-- [range][2-12] 
-- [source][2-13] 
-- [template_from_string][2-14]
-
-### Tests
-- [constant][3-1]
-- [defined][3-2] 
-- [divisibleby][3-3] 
-- [empty][3-4] 
-- [even][3-5] 
-- [iterable][3-6] 
-- [null][3-7] 
-- [odd][3-8] 
-- [sameas][3-9] 
-
-### Operators
-- [in][3-10] 
-- [is][3-11] 
-- [Math][3-12] 
-- [Logic][3-13] 
-- [Comparisons][3-14] 
-- [Others][3-15] 
-
-----------
 
 [3-10]: http://twig.sensiolabs.org/doc/2.x/templates.html#containment-operator
 [3-11]: http://twig.sensiolabs.org/doc/2.x/templates.html#test-operator
