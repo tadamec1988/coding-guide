@@ -6,9 +6,29 @@ This document describes best practices to follow when coding html+css.
 
 - [Workflow](WORKFLOW.md)
 	- [Understanding design](#design)
+- Stylesheet architecture
+
 
 ## Workflow
 
-### Understanding project desing [](#design)
+### Understanding project desing <a id="design"></a>
 
-Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+// TODO
+
+## CSS Stylesheet architecture
+
+We adhere to component/module-based approach [css-bliss](https://github.com/gilbox/css-bliss) which shares common ideas with 
+[BEM](http://bem.info), [SMACSS](https://smacss.com/), [OOCSS](http://oocss.org/), [SUITECSS](https://github.com/suitcss),
+but adds further restrictions to **fix design flaws in CSS**.
+
+To be studied in following order
+
+- [Walkthrough](http://gilbox.github.io/css-bliss/walkthrough/release/)
+- [Chapters in README](https://github.com/gilbox/css-bliss)
+- [How css-bliss tackles problems with complex CSS identified by Facebook](https://github.com/gilbox/css-bliss/blob/master/solving-complexity.md)
+- [Common mistakes](https://github.com/gilbox/css-bliss/blob/master/common-mistakes.md)
+
+All credits go to [Gil Birman](https://github.com/gilbox)
+
+This architecture is preprocessor independent. 
+We are using SASS to make things DRY.
