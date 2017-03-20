@@ -7,93 +7,6 @@ Twig is a modern template engine for PHP.
 ## Doc
 - [Go to Twig Doc](http://twig.sensiolabs.org/doc/2.x/)
 
-
-[3-10]: http://twig.sensiolabs.org/doc/2.x/templates.html#containment-operator
-[3-11]: http://twig.sensiolabs.org/doc/2.x/templates.html#test-operator
-[3-12]: http://twig.sensiolabs.org/doc/2.x/templates.html#math
-[3-13]: http://twig.sensiolabs.org/doc/2.x/templates.html#math
-[3-14]: http://twig.sensiolabs.org/doc/2.x/templates.html#comparisons
-[3-15]: http://twig.sensiolabs.org/doc/2.x/templates.html#other-operators
-
-[3-1]: http://twig.sensiolabs.org/doc/2.x/tests/constant.html
-[3-2]: http://twig.sensiolabs.org/doc/2.x/tests/defined.html
-[3-3]: http://twig.sensiolabs.org/doc/2.x/tests/divisibleby.html
-[3-4]: http://twig.sensiolabs.org/doc/2.x/tests/empty.html
-[3-5]: http://twig.sensiolabs.org/doc/2.x/tests/even.html
-[3-6]: http://twig.sensiolabs.org/doc/2.x/tests/iterable.html
-[3-7]: http://twig.sensiolabs.org/doc/2.x/tests/null.html
-[3-8]: http://twig.sensiolabs.org/doc/2.x/tests/odd.html
-[3-9]: http://twig.sensiolabs.org/doc/2.x/tests/sameas.html
-
-[2-1]: http://twig.sensiolabs.org/doc/2.x/functions/attribute.html
-[2-2]: http://twig.sensiolabs.org/doc/2.x/functions/block.html
-[2-3]: http://twig.sensiolabs.org/doc/2.x/functions/constant.html
-[2-4]: http://twig.sensiolabs.org/doc/2.x/functions/cycle.html
-[2-5]: http://twig.sensiolabs.org/doc/2.x/functions/date.html
-[2-6]: http://twig.sensiolabs.org/doc/2.x/functions/dump.html
-[2-7]: http://twig.sensiolabs.org/doc/2.x/functions/include.html
-[2-8]: http://twig.sensiolabs.org/doc/2.x/functions/max.html
-[2-9]: http://twig.sensiolabs.org/doc/2.x/functions/min.html
-[2-10]: http://twig.sensiolabs.org/doc/2.x/functions/parent.html
-[2-11]: http://twig.sensiolabs.org/doc/2.x/functions/random.html
-[2-12]: http://twig.sensiolabs.org/doc/2.x/functions/range.html
-[2-13]: http://twig.sensiolabs.org/doc/2.x/functions/source.html
-[2-14]: http://twig.sensiolabs.org/doc/2.x/functions/template_from_string.html
-
-[1-1]: http://twig.sensiolabs.org/doc/2.x/filters/abs.html
-[1-2]: http://twig.sensiolabs.org/doc/2.x/filters/batch.html
-[1-3]: http://twig.sensiolabs.org/doc/2.x/filters/capitalize.html
-[1-4]: http://twig.sensiolabs.org/doc/2.x/filters/convert_encoding.html
-[1-5]: http://twig.sensiolabs.org/doc/2.x/filters/date.html
-[1-6]: http://twig.sensiolabs.org/doc/2.x/filters/date_modify.html
-[1-7]: http://twig.sensiolabs.org/doc/2.x/filters/default.html
-[1-8]: http://twig.sensiolabs.org/doc/2.x/filters/escape.html
-[1-9]: http://twig.sensiolabs.org/doc/2.x/filters/first.html
-[1-10]: http://twig.sensiolabs.org/doc/2.x/filters/format.html
-[1-11]: http://twig.sensiolabs.org/doc/2.x/filters/join.html
-[1-12]: http://twig.sensiolabs.org/doc/2.x/filters/json_encode.html
-[1-13]: http://twig.sensiolabs.org/doc/2.x/filters/keys.html
-[1-14]: http://twig.sensiolabs.org/doc/2.x/filters/last.html
-[1-15]: http://twig.sensiolabs.org/doc/2.x/filters/length.html
-[1-16]: http://twig.sensiolabs.org/doc/2.x/filters/lower.html
-[1-17]: http://twig.sensiolabs.org/doc/2.x/filters/merge.html
-[1-18]: http://twig.sensiolabs.org/doc/2.x/filters/nl2br.html
-[1-19]: http://twig.sensiolabs.org/doc/2.x/filters/number_format.html
-[1-20]: http://twig.sensiolabs.org/doc/2.x/filters/raw.html
-[1-21]: http://twig.sensiolabs.org/doc/2.x/filters/replace.html
-[1-22]: http://twig.sensiolabs.org/doc/2.x/filters/reverse.html
-[1-23]: http://twig.sensiolabs.org/doc/2.x/filters/round.html
-[1-24]: http://twig.sensiolabs.org/doc/2.x/filters/slice.html
-[1-25]: http://twig.sensiolabs.org/doc/2.x/filters/sort.html
-[1-26]: http://twig.sensiolabs.org/doc/2.x/filters/split.html
-[1-27]: http://twig.sensiolabs.org/doc/2.x/filters/striptags.html
-[1-28]: http://twig.sensiolabs.org/doc/2.x/filters/title.html
-[1-29]: http://twig.sensiolabs.org/doc/2.x/filters/trim.html
-[1-30]: http://twig.sensiolabs.org/doc/2.x/filters/upper.html
-[1-31]: http://twig.sensiolabs.org/doc/2.x/filters/url_encode.html
-
-[1]: http://twig.sensiolabs.org/doc/2.x/tags/autoescape.html
-[2]: http://twig.sensiolabs.org/doc/2.x/tags/block.html
-[3]: http://twig.sensiolabs.org/doc/2.x/tags/do.html
-[4]: http://twig.sensiolabs.org/doc/2.x/tags/embed.html
-[5]: http://twig.sensiolabs.org/doc/2.x/tags/extends.html
-[6]: http://twig.sensiolabs.org/doc/2.x/tags/filter.html
-[7]: http://twig.sensiolabs.org/doc/2.x/tags/flush.html
-[8]: http://twig.sensiolabs.org/doc/2.x/tags/for.html
-[9]: http://twig.sensiolabs.org/doc/2.x/tags/from.html
-[10]: http://twig.sensiolabs.org/doc/2.x/tags/if.html
-[11]: http://twig.sensiolabs.org/doc/2.x/tags/import.html
-[12]: http://twig.sensiolabs.org/doc/2.x/tags/include.html
-[13]: http://twig.sensiolabs.org/doc/2.x/tags/macro.html
-[14]: http://twig.sensiolabs.org/doc/2.x/tags/sandbox.html
-[15]: http://twig.sensiolabs.org/doc/2.x/tags/set.html
-[16]: http://twig.sensiolabs.org/doc/2.x/tags/spaceless.html
-[17]: http://twig.sensiolabs.org/doc/2.x/tags/use.html
-[18]: http://twig.sensiolabs.org/doc/2.x/tags/verbatim.html
-[19]: http://twig.sensiolabs.org/doc/2.x/tags/with.html
-
-
-
 ## Best Practice 
 - [Global Variables](#global-variables)
 - [Dump variable](#dump-variable)
@@ -210,7 +123,7 @@ Usage: `template.html.twig`
 {% endembed %}
 ```
 
-[More informations][4]
+[More informations](http://twig.sensiolabs.org/doc/2.x/tags/embed.html)
 
 ### Use Import and Macros
 
@@ -250,7 +163,7 @@ Usage: `template.html.twig`
 <p>{{ textarea('comment') }}</p>
 ```
 
-More informations [import][11] and [macro][13] 
+More informations [import](http://twig.sensiolabs.org/doc/2.x/tags/import.html) and [macro](http://twig.sensiolabs.org/doc/2.x/tags/macro.html)
 
 ### Add new extensions
 
